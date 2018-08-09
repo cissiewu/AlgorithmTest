@@ -21,7 +21,7 @@
 * @return 查找结果，true找到，false没找到
 * */
 
-class three {
+class Test3_FindInArr {
 
     public static boolean find(int[][] matrix, int number){
         if (matrix == null || matrix.length < 1 || matrix[0].length < 1){
