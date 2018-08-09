@@ -7,7 +7,7 @@ import java.util.Stack;
  * Version: 1.0
  * Author: WuXi
  */
-class ReverseList {
+class Test16_ReverseList {
     /*
     * 定义一个函数，输入一个链表的头结点，反转该链表并输出反转后链表的头结点
     * */

@@ -7,7 +7,7 @@
 * 输入一个递增排序的数组的一个旋转，输出旋转数组的最小元素。
 * 如{3，4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值是1
 * */
-public class Eight {
+public class Test8_ReserveMinNum {
     /*
     * @param numbers 旋转数组
     * @return 数组的最小值

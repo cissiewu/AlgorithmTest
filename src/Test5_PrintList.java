@@ -8,7 +8,7 @@ import java.util.Stack;
 * 输入一个链表，从尾到头打印链表每个节点的值
 * 思路：借助辅助栈，或者使用递归
 * */
-public class PrintList {
+public class Test5_PrintList {
 
     /*
     * 结点对象

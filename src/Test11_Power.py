@@ -4,7 +4,7 @@
  Date：2018/8/6 10:02
  Version: 1.0
  Author: WuXi
-    *  实现函数double Power(double base, int exponent)，求base的exponent次方。
+    *  实现函数double (double base, int exponent)，求base的exponent次方。
      * 不得使用库函数，同时不需要考虑大数问题。
      * @param base 指次
      * @param exponent 幂
@@ -26,7 +26,7 @@ def double_power(base, exponent):
     return result
 
 
-def power(base, exponent):
+def powers(base, exponent):
     if base == 0 and exponent == 0:
         raise Exception("input error.")
     if exponent == 0:
@@ -41,5 +41,5 @@ def power(base, exponent):
 
 
 if __name__ == "__main__":
-    print power(2, 10)
-    print power(2, 11)
+    print powers(2, 10)
+    print powers(2, 11)

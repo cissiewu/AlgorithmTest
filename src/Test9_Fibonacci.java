@@ -2,7 +2,7 @@
 * 写一个函数，输入n，求菲波那切数列的第n项。
 * */
 
-public class Fibonacci {
+public class Test9_Fibonacci {
 
     public static long fibonacci(int n) {
 

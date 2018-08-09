@@ -5,7 +5,7 @@
  * Version: 1.0
  * Author: WuXi
  */
-class DeleteListNode {
+class Test13_DeleteListNode {
     /*
     * 给定单向链表的头指针和一个结点指针，定义一个函数在O(1)时间删除该结点。
     * 链表结点

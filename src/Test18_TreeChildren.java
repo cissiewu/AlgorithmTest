@@ -5,7 +5,7 @@
  * Version: 1.0
  * Author: WuXi
  */
-class TreeChildren {
+class Test18_TreeChildren {
     /*
     * 输入两颗二叉树A和B，判断B是不是A的子结构
     * 思路： 第一步在树A 中找到和B 的根结点的值一样的结点R， 第二步再判断树A 中以R 为根结点的子树是不是包含和树B 一样的结构。

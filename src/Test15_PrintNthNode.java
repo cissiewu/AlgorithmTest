@@ -7,7 +7,7 @@ import java.util.List;
  * Version: 1.0
  * Author: WuXi
  */
-class PrintNthNode {
+class Test15_PrintNthNode {
     /*
     * 输入一个链表，输出该链表中倒数第k个结点。
     * */

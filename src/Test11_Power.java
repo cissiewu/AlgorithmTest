@@ -5,15 +5,15 @@
  * Version: 1.0
  * Author: WuXi
  */
-class Power {
+class Test11_Power {
     /*
-    *  实现函数double Power(double base, int exponent)，求base的exponent次方。
+    *  实现函数double (double base, int exponent)，求base的exponent次方。
      * 不得使用库函数，同时不需要考虑大数问题。
      * @param base 指次
      * @param exponent 幂
      * @return base的exponent次方
     * */
-    public static double power(double base,int exponent){
+    public static double powers(double base,int exponent){
         //指数和底数不能同时为0
         if(base==0 && exponent==0){
             throw new RuntimeException("invalid imput.");

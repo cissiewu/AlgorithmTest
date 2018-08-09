@@ -8,7 +8,7 @@ import java.util.Stack;
 * 分别完成在队列尾部插入结点和在队列头部删除结点的功能
 * */
 
-public class Stack2Quenue {
+public class Test7_Stack2Quenue {
 
     public static class MList<T>{
         //插入栈，只用于插入数据

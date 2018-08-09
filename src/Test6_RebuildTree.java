@@ -7,7 +7,7 @@
 * 和中序遍历序列｛4, 7, 2, 1, 5, 3, 8，6}，重建出下图
 *
 * */
-public class RebuildTree {
+public class Test6_RebuildTree {
 
     /*
     * 二叉树结点

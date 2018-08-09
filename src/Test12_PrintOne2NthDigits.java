@@ -5,7 +5,7 @@
  * Version: 1.0
  * Author: WuXi
  */
-class PrintOne2NthDigits {
+class Test12_PrintOne2NthDigits {
     /*
     * 输入数字n，按顺序打印出从1到最大n位的十进制数，
     * 如，输入3，打印出1到999

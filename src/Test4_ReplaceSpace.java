@@ -11,7 +11,7 @@
 
 
 
-class ReplaceSpace {
+class Test4_ReplaceSpace {
 
     /*
 
