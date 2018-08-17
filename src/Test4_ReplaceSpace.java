@@ -33,26 +33,25 @@ class Test4_ReplaceSpace {
         }
         int originLength = string.length;
         int spaceCount = 0;
-        for (int i=1;i<originLength;i++){
-            if(string[i]==' ')
+        for (int i = 1; i < originLength; i++) {
+            if (string[i] == ' ')
                 spaceCount++;
         }
-        int newLength=originLength+2*spaceCount;
-        char[] temp=new char[newLength];
-        int i=originLength-1;
-        int j=newLength-1;
-        while (i>=0){
-            if (string[i]==' '){
-                temp[j]='0';
-                temp[j-1]='2';
-                temp[j-2]='%';
-                j=j-3;
+        int newLength = originLength + 2 * spaceCount;
+        char[] temp = new char[newLength];
+        int i = originLength - 1;
+        int j = newLength - 1;
+        while (i >= 0) {
+            if (string[i] == ' ') {
+                temp[j] = '0';
+                temp[j - 1] = '2';
+                temp[j - 2] = '%';
+                j = j - 3;
+            } else {
+                temp[j] = string[i];
+                j = j - 1;
             }
-            else{
-                temp[j]=string[i];
-                j=j-1;
-            }
-            i=i-1;
+            i = i - 1;
         }
         return new String(temp);
     }
@@ -63,32 +62,25 @@ class Test4_ReplaceSpace {
     * 通过indexof（string str,fromIndex）方法和subSequence(int start,int end)方法联合实现
     * */
 
-    public static String replaceSpace2(StringBuffer str){
+    public static String replaceSpace2(StringBuffer str) {
         if (str == null)
             return null;
         int fromIndex = 0;
         int index = 0;
         StringBuffer temp = new StringBuffer();
-        while(index<=str.length()){
-            index = str.indexOf(" ",fromIndex);
-            if (index>=0){
-                temp.append(str.subSequence(fromIndex,index)).append("%20");
-                index=index+1;
-                fromIndex=index;
-            }else{
-                temp.append(str.substring(fromIndex,str.length()));
+        while (index <= str.length()) {
+            index = str.indexOf(" ", fromIndex);
+            if (index >= 0) {
+                temp.append(str.subSequence(fromIndex, index)).append("%20");
+                index = index + 1;
+                fromIndex = index;
+            } else {
+                temp.append(str.substring(fromIndex, str.length()));
                 break;
             }
         }
-        return temp.toString();
 
-    }
-
-    public static void main(String[] args){
-        String string1="we are happy";
-        String string2="we  are happy";
-        System.out.println(replaceSpace(string1.toCharArray()));
-        System.out.println(replaceSpace2(new StringBuffer(string2)));
+        return "";
     }
 
 }
